@@ -1,0 +1,24 @@
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.box{
+    display: flex;
+    gap: 5rem;
+}
+.box div{
+    display: flex;    
+    flex-direction: column;    
+    align-items: center;
+}
+
+.num{
+    font-size: 10rem;
+    font-weight: bold;
+}
